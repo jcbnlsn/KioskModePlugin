@@ -10,7 +10,7 @@ Kiosk mode lets you control the user experience by manipulating numerous system 
 
 ###**Syntax**
 ```lua
-kioskMode.track ( options )
+kioskMode.setPresentation ( options )
 ```
 
 **options**
@@ -49,6 +49,7 @@ settings =
         ["plugin.kioskMode"] = { publisherId = "net.shakebrowser" }
     },      
 }
+```
 
 ###**Example**
 ```lua
