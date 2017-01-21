@@ -1,0 +1,14 @@
+
+settings =
+{
+    window = {
+        defaultViewWidth = 1024,
+        defaultViewHeight = 768,
+        
+        defaultMode = "fullscreen", -- "normal"
+    },
+
+    plugins = {
+        ["plugin.kioskMode"] = { publisherId = "net.shakebrowser" }
+    }
+}
