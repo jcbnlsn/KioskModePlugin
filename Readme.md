@@ -13,7 +13,7 @@ Kiosk mode lets you control the user experience by manipulating numerous system 
 kioskMode.setPresentation ( options )
 ```
 
-##**options**
+**options**
 A table containing a comma-delimited list of options.
 
 The presentation options can consist of one or more of the following strings:
