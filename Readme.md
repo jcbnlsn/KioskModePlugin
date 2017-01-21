@@ -13,39 +13,29 @@ Kiosk mode lets you control the user experience by manipulating numerous system 
 kioskMode.setPresentation ( options )
 ```
 
-**options**
+##**options**
 A table containing a comma-delimited list of options.
 
 The presentation options can consist of one or more of the following strings:
-
+```lua
 "Default",                     --Default settings. No special behavior.
-
 "AutoHideDock",                --Dock appears when moused to. Spotlight menu is disabled.
-
 "HideDock",                    --Dock is entirely unavailable. Spotlight menu is disabled.
-
 "AutoHideMenuBar",             --Menu Bar appears when moused to.
-
 "HideMenuBar",                 --Menu Bar is entirely unavailable.
-
 "DisableAppleMenu",            --All Apple menu items are disabled.
-
 "DisableProcessSwitching",     -- Cmd+Tab UI is disabled. All Exposé functionality is also disabled.
-
 "DisableForceQuit",            --Cmd+Opt+Esc panel is disabled.
-
 "DisableSessionTermination",   --PowerKey panel and Restart/Shut Down/Log Out are disabled.
-
 "DisableHideApplication",      -- Application "Hide" menu item is disabled.
-
 "DisableMenuBarTransparency"   --The transparent appearance of the menu bar is disabled.
+```
 
+###**Gotchas**
 Not all combinations of options are valid. Read more here:
 https://developer.apple.com/library/content/technotes/KioskMode/Introduction/Introduction.html
 
-###**Gotchas**
 Kiosk Mode doesn't allow you to disable the quit application shortcut (CMD+Q).
-
 To prevent users from quitting kiosk mode you can reassign the quit command to some obscure shortcut eg. CMD+ALT+SHIFT+B+S
 Read how to here: https://www.quora.com/How-do-I-disable-Command-q-in-OS-X
 
