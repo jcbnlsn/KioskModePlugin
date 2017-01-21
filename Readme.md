@@ -36,7 +36,7 @@ Not all combinations of options are valid. Read more here:
 https://developer.apple.com/library/content/technotes/KioskMode/Introduction/Introduction.html
 
 Kiosk Mode doesn't allow you to disable the quit application shortcut (CMD+Q).
-To prevent users from quitting kiosk mode you can reassign the quit command to some obscure shortcut eg. CMD+ALT+SHIFT+B+S
+To prevent users from quitting kiosk mode you can reassign the quit command to another shortcut.
 Read how to here: https://www.quora.com/How-do-I-disable-Command-q-in-OS-X
 
 ###**Project Settings**
