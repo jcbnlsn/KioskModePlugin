@@ -18,17 +18,17 @@ A table containing a comma-delimited list of options.
 
 The presentation options can consist of one or more of the following strings:
 ```lua
-"Default",                     --Default settings. No special behavior.
-"AutoHideDock",                --Dock appears when moused to. Spotlight menu is disabled.
-"HideDock",                    --Dock is entirely unavailable. Spotlight menu is disabled.
-"AutoHideMenuBar",             --Menu Bar appears when moused to.
-"HideMenuBar",                 --Menu Bar is entirely unavailable.
-"DisableAppleMenu",            --All Apple menu items are disabled.
+"Default",                     -- Default settings. No special behavior.
+"AutoHideDock",                -- Dock appears when moused to. Spotlight menu is disabled.
+"HideDock",                    -- Dock is entirely unavailable. Spotlight menu is disabled.
+"AutoHideMenuBar",             -- Menu Bar appears when moused to.
+"HideMenuBar",                 -- Menu Bar is entirely unavailable.
+"DisableAppleMenu",            -- All Apple menu items are disabled.
 "DisableProcessSwitching",     -- Cmd+Tab UI is disabled. All Exposé functionality is also disabled.
-"DisableForceQuit",            --Cmd+Opt+Esc panel is disabled.
-"DisableSessionTermination",   --PowerKey panel and Restart/Shut Down/Log Out are disabled.
+"DisableForceQuit",            -- Cmd+Opt+Esc panel is disabled.
+"DisableSessionTermination",   -- PowerKey panel and Restart/Shut Down/Log Out are disabled.
 "DisableHideApplication",      -- Application "Hide" menu item is disabled.
-"DisableMenuBarTransparency"   --The transparent appearance of the menu bar is disabled.
+"DisableMenuBarTransparency"   -- The transparent appearance of the menu bar is disabled.
 ```
 
 ###**Gotchas**
