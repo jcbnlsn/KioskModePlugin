@@ -1,6 +1,7 @@
 
 Documentation and samplecode for:
 ###**Kiosk Mode for MacOS - Corona SDK Plugin**
+https://marketplace.coronalabs.com/plugin/kiosk-mode
 
 Kiosk mode lets you control the user experience by manipulating numerous system user interface elements from within your application. For example:
 
