@@ -1,6 +1,6 @@
 
 Documentation and samplecode for:
-###**Kiosk Mode for MacOS - Corona SDK Plugin**
+**Kiosk Mode for MacOS - Corona SDK Plugin**
 https://marketplace.coronalabs.com/plugin/kiosk-mode
 
 Kiosk mode lets you control the user experience by manipulating numerous system user interface elements from within your application. For example:
@@ -9,7 +9,7 @@ Kiosk mode lets you control the user experience by manipulating numerous system 
 * You can disable activities that take users out of your application, such as process switching, the Force Quit window, hiding the application, and Exposé
 * You can prevent users from restarting or powering down the computer
 
-###**Syntax**
+**Syntax**
 ```lua
 kioskMode.setPresentation ( options )
 ```
@@ -32,7 +32,7 @@ The presentation options can consist of one or more of the following strings:
 "DisableMenuBarTransparency"   -- The transparent appearance of the menu bar is disabled.
 ```
 
-###**Gotchas**
+**Gotchas**
 Not all combinations of options are valid. Read more here:
 https://developer.apple.com/library/content/technotes/KioskMode/Introduction/Introduction.html
 
@@ -40,7 +40,7 @@ Kiosk Mode doesn't allow you to disable the quit application shortcut (CMD+Q).
 To prevent users from quitting kiosk mode you can reassign the quit command to another shortcut.
 Read how to here: https://www.quora.com/How-do-I-disable-Command-q-in-OS-X
 
-###**Project Settings**
+**Project Settings**
 To use this plugin, add an entry into the plugins table of build.settings. When added, the build server will integrate the plugin during the build phase.
 ```lua
 settings =
@@ -52,7 +52,7 @@ settings =
 }
 ```
 
-###**Example**
+**Example**
 ```lua
 local kiosk = require("plugin.kioskMode")
 
