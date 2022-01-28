@@ -1,0 +1,152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4D58F8391E32C646008E9B4F /* Corona */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Corona; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D58F8571E32C647008E9B4F /* main.lua */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lua; path = main.lua; sourceTree = "<group>"; };
+		4D58F8581E32C647008E9B4F /* config.lua */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lua; path = config.lua; sourceTree = "<group>"; };
+		4D58F85A1E32C647008E9B4F /* Corona.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Corona.xcscheme; path = Corona.xcodeproj/xcshareddata/xcschemes/Corona.xcscheme; sourceTree = SOURCE_ROOT; };
+		4D58F85B1E32C647008E9B4F /* build.settings */ = {isa = PBXFileReference; lastKnownFileType = text; path = build.settings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.corona; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4D58F8331E32C646008E9B4F = {
+			isa = PBXGroup;
+			children = (
+				4D58F83B1E32C646008E9B4F /* Corona */,
+				4D58F83A1E32C646008E9B4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D58F83A1E32C646008E9B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D58F8391E32C646008E9B4F /* Corona */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D58F83B1E32C646008E9B4F /* Corona */ = {
+			isa = PBXGroup;
+			children = (
+				4D58F8571E32C647008E9B4F /* main.lua */,
+				4D58F8581E32C647008E9B4F /* config.lua */,
+				4D58F85B1E32C647008E9B4F /* build.settings */,
+				4D58F8591E32C647008E9B4F /* Supporting Files */,
+			);
+			path = Corona;
+			sourceTree = "<group>";
+		};
+		4D58F8591E32C647008E9B4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D58F85A1E32C647008E9B4F /* Corona.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D58F8381E32C646008E9B4F /* Corona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D58F85E1E32C647008E9B4F /* Build configuration list for PBXNativeTarget "Corona" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Corona;
+			productName = Corona;
+			productReference = 4D58F8391E32C646008E9B4F /* Corona */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D58F8341E32C646008E9B4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				TargetAttributes = {
+					4D58F8381E32C646008E9B4F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4D58F8371E32C646008E9B4F /* Build configuration list for PBXProject "Corona" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D58F8331E32C646008E9B4F;
+			productRefGroup = 4D58F83A1E32C646008E9B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D58F8381E32C646008E9B4F /* Corona */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4D58F85C1E32C647008E9B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4D58F85D1E32C647008E9B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		4D58F85F1E32C647008E9B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D58F8601E32C647008E9B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D58F8371E32C646008E9B4F /* Build configuration list for PBXProject "Corona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D58F85C1E32C647008E9B4F /* Debug */,
+				4D58F85D1E32C647008E9B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D58F85E1E32C647008E9B4F /* Build configuration list for PBXNativeTarget "Corona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D58F85F1E32C647008E9B4F /* Debug */,
+				4D58F8601E32C647008E9B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D58F8341E32C646008E9B4F /* Project object */;
+}
